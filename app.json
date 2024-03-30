@@ -1,5 +1,5 @@
 {
-  "name":"Zokou-2.0",
+  "name":"Xhriss-md",
   "description":"bot whatsapp développé par djalega++",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
@@ -51,7 +51,7 @@
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
       "value":"oui",
-      "required":false
+      "required": true
     }
 	,
     "HEROKU_APY_KEY": {
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "Xhriss"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "25517312905"
   },
     
 
@@ -95,7 +95,7 @@
   {
     "description": "il s'agit de nombre d'avertissement limite",
     "required": false,
-    "value": "3"
+    "value": "2"
   },
   "STARTING_BOT_MESSAGE":
   {
